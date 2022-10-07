@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1918px;
+    margin: auto;
+}
+
+.left {
+    background-color: black;
+}
+
+.right {
+    position: relative;
+}
+
+.main-layout {
+    display: grid;
+    grid-template-columns: 150px 1768px;
+    height: 935px;
+}
+
+@media screen and (max-width : 1180px) {
+    .main-layout {
+        grid-template-columns: 120px 1060px; 
+    }
+}
+@media screen and (max-width : 667px) {
+    .main-layout {
+        grid-template-columns: 110px 557px;
+        height: 1100px; 
+    }
+}

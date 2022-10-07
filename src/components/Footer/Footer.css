@@ -1,0 +1,21 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 1768px;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #DEDEDE;
+}
+
+.footer .text{
+    width: 125px;
+    height: 19px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 129px;
+}
